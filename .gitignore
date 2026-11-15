@@ -1,0 +1,25 @@
+# Gradle 构建产物
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# IDE
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# 本地配置（机器相关路径，勿入库）
+local.properties
+
+# 日志与临时文件
+*.log
+*.tmp
+*.apk
+发布/
+
+# 系统杂项
+.DS_Store
+Thumbs.db

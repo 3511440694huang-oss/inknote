@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 墨笺主题：白纸黑字、零动画（窗口/对话框/启动转场全部关闭） -->
+    <style name="Theme.InkNote" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:windowActivityTransitions">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/paper</item>
+        <item name="android:navigationBarColor">@color/paper</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.InkNote.Dialog" parent="android:Theme.Material.Light.Dialog.NoActionBar">
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowContentTransitions">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>
